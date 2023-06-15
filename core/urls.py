@@ -24,6 +24,6 @@ urlpatterns = [
 ]
 
 
-# admin.site.index_title = "The Book Store"
-# admin.site.site_header = "The Book Store Admin"
-# admin.site.site_title = "The book store title"
+admin.site.index_title = "The Book Store"
+admin.site.site_header = "The Book Store Admin"
+admin.site.site_title = "The book store title"
