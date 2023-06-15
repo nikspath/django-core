@@ -17,6 +17,9 @@ install requirements.txt
 pip install -r /home/ubuntu/django-core/requirements.txt
 
 # run server
-screen -d -m python3 manage.py makemigrations
-screen -d -m python3 manage.py migrate
-screen -d -m python3 manage.py runserver 0:8000
+#screen -d -m python3 manage.py makemigrations
+#screen -d -m python3 manage.py migrate
+screen -d -m python3 manage.py runserver 0.0.0.0:8000
+
+# django-core-cicd = awsservice and ec2 role
+#$ django-core-cicd-codedeploy = awservice and codedeploy
